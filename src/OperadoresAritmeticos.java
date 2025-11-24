@@ -1,6 +1,7 @@
 public class OperadoresAritmeticos {
 
     public static void main(String[] args) {
+
         double pao = 9.50;
         double queijo = 7.00;
         double acucar = 1.00;
