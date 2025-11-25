@@ -1,4 +1,5 @@
 public class ConversaoTipos {
+
     public static void main(String[] args) {
 
         int numero = 10;
@@ -29,5 +30,7 @@ public class ConversaoTipos {
         System.out.println(numeroString2 + " " + numeroConvertidoInteger); //numero em string convertido para integer
         System.out.println(numeroString2 + " " + numeroConvertidoDouble); //numero em string convertido para double
         System.out.println(numeroString2 + " " + numeroConvertidoLong); //numero em string convertido para long
+
+        System.out.println("Resultado: " + (3 * 5));
     }
 }
