@@ -19,20 +19,32 @@ public class EstruturaIfElse {
 //            System.out.println("Vamos ficar em casa");
 //        }
 
-        boolean temDinheiro = false;
-        boolean temCartao = false;
+//        boolean temDinheiro = false;
+//        boolean temCartao = false;
+//
+//        if(temDinheiro && temCartao) {
+//            System.out.println("Pede um ifood e um zé delivery");
+//        } else if (temDinheiro || temCartao) {
+//            System.out.println("Pede um ifood");
+//        }
+//        else {
+//            System.out.println("Não pede nada");
+//        }
+//
+//        //Operador Ternário
+//        String mensagem = (temDinheiro) ? "Pede um ifood" : "Come o que tem em casa";
+//        System.out.println(mensagem);
 
-        if(temDinheiro && temCartao) {
-            System.out.println("Pede um ifood e um zé delivery");
-        } else if (temDinheiro || temCartao) {
-            System.out.println("Pede um ifood");
-        }
-        else {
-            System.out.println("Não pede nada");
-        }
+        int y = 20;
 
-        //Operador Ternário
-        String mensagem = (temDinheiro) ? "Pede um ifood" : "Come o que tem em casa";
-        System.out.println(mensagem);
+        if (y > 10 && y < 30) {
+
+            System.out.println("Dentro do intervalo");
+
+        } else {
+
+            System.out.println("Fora do intervalo");
+
+        }
     }
 }
