@@ -10,7 +10,6 @@ public class EstudoHashMap {
         for (String nome : notasAlunos.keySet()){
             double nota = notasAlunos.get(nome);
             System.out.println(nome + " : " + nota);
-
         }
     }
 }
