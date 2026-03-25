@@ -14,6 +14,8 @@ public class Casa {
         casa.construir();
         casa.pintar();
         int resultado = casa.somarMetragem();
-        System.out.println("A soma total da metragem da casa é: "+ resultado);
+        System.out.println("A soma total da metragem da casa é: "+ resultado + "\n");
+
+        casa.alterarCaracteristicas(100, 2, 2, "Madeira");
     }
 }

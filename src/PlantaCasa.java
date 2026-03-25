@@ -21,4 +21,12 @@ public class PlantaCasa {
     public int somarMetragem(){
         return metragem * numeroBanheiros + numeroQuartos;
     }
+
+    public void alterarCaracteristicas(int metros, int quartos, int banheiro, String mat){
+        metragem = metros;
+        numeroQuartos = quartos;
+        numeroBanheiros = banheiro;
+        material = mat;
+        construir();
+    }
 }
