@@ -17,4 +17,8 @@ public class PlantaCasa {
     public void pintar(){
         System.out.println("A casa foi pintada de: " + cor);
     }
+
+    public int somarMetragem(){
+        return metragem * numeroBanheiros + numeroQuartos;
+    }
 }
