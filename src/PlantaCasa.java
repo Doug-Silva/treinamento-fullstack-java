@@ -1,4 +1,4 @@
-public class PlantaCasa {
+public class PlantaCasa implements Construcao {
     //Atributos
     int metragem;
     int numeroQuartos;
@@ -6,6 +6,8 @@ public class PlantaCasa {
     String cor;
     String material;
 
+    //Anotação
+    @Override
     public void construir(){
         System.out.println("A casa foi construída, as caracteristicas são: ");
         System.out.println("Metragem " + metragem);
@@ -14,8 +16,14 @@ public class PlantaCasa {
         System.out.println("Material " + material);
     }
 
-    public void pintar(){
+    @Override
+    public void pintar(String cor){
         System.out.println("A casa foi pintada de: " + cor);
+    }
+
+    @Override
+    public int calcularCustoConstrucao(int custoPorMetro) {
+        return metragem + custoPorMetro;
     }
 
     public int somarMetragem(){

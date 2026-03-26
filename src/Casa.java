@@ -12,7 +12,7 @@ public class Casa {
 
         //Chamada da função metodo, da ordem
         casa.construir();
-        casa.pintar();
+        casa.pintar("Vermelho");
         int resultado = casa.somarMetragem();
         System.out.println("A soma total da metragem da casa é: "+ resultado + "\n");
 
