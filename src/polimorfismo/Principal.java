@@ -17,5 +17,8 @@ public class Principal {
         System.out.println("Resultado total: " + total);
         System.out.println("Resultado total double: " + totalDouble);
         System.out.println("Resultado total integer: " + totalInteger);
+
+        Carro fusca = new Carro();
+        fusca.mover();
     }
 }
