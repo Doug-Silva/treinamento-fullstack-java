@@ -1,3 +1,5 @@
+package heranca;
+
 public class Casa {
     public static void main(String[] args) {
         //Criando o objeto casa

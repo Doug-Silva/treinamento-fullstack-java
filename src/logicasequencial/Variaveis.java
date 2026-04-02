@@ -1,10 +1,12 @@
+package logicasequencial;
+
 import java.text.DecimalFormat;
 
 //exercício:
 //criar variavis, atribuir valor a elas e depois imprimir na tela
 //print do salario com duas casas depois da vírgula
 
-public class Main {
+public class Variaveis {
     public static void main(String[] args) {
 
         //CODIGO REFATORADO

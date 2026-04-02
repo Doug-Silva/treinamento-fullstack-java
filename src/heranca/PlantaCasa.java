@@ -1,3 +1,5 @@
+package heranca;
+
 public class PlantaCasa implements Construcao {
     //Atributos
     int metragem;

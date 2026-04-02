@@ -1,3 +1,5 @@
+package heranca;
+
 public interface Construcao {
 
     void construir();
